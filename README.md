@@ -1,8 +1,8 @@
-# Counter 
+# Calculator 
 ---
 ## Introduction
 ---
-An Basic Counter Application made using Reactjs 
+A simple calculator application built using React.js. This calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
 ## Tech Stack
 
@@ -11,10 +11,10 @@ An Basic Counter Application made using Reactjs
 ## Installation
 
 1.  Clone the repository:
-    ```bash
-    git clone https://github.com/ps8847/react-counter.git
-    cd Gentsshop
-    ```
+```bash
+git clone https://github.com/ps8847/react-calculator.git
+cd react-calculator
+```
 2.  Install dependencies:
     ```bash
     npm install
@@ -27,13 +27,14 @@ An Basic Counter Application made using Reactjs
 
     ## Features
 
-| Feature             | Description                                                  |
-| ------------------- | ------------------------------------------------------------ |
-| Add 1               | OAuth with JWT for secure user login and registration        |
-| Subtract 1          | Reset password via email with reset link                     |
-| Add 2               | Update user profile details (email, name, password, picture) |
-| Subtract 2          | Add items to the cart and apply coupon codes                 |
-| Reset               | Logged-in users can review products                          |
+| Feature               | Description                                                                      |
+| -------------------   | ---------------------------------------------------------------------------------|
+| Numeric Buttons	    | Buttons from 0 to 9 for inputting numeric values                                 |
+| Arithmetic Operators	| Buttons for addition (+), subtraction (-), multiplication (*), and division (/)  |
+| Decimal Point	        | Button for adding a decimal point to the input                                   |
+| Equal Button	        | Button to calculate the result of the expression                                 |
+| Clear Button	        | Button to clear the input and result                                             |
+| Error Handling	    | Displays "Error" in case of invalid expressions                                  |
 
 
 ## Contributions
